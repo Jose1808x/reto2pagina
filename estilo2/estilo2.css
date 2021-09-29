@@ -158,7 +158,7 @@ body{
     .cuerpo{
         display:block;
         grid-template-columns: 100% 
-        padding: 0px 40px;
+        padding: 1px 40px;
     }
     .logo2{
         width: 100%;
