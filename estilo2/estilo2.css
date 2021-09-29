@@ -1,0 +1,275 @@
+
+body{
+    background: hsl(257, 40%, 49%);
+    background-image:url(/imagenes/bg-desktop.svg);
+}
+/*-----------------------logo1---------------------*/
+.container1{
+    padding: 20px 50px;
+}
+.logo1{
+    width: 17%;
+    margin-bottom: 15px;
+}
+
+/*----------------------section----------------------*/
+.cuerpo{
+    display:grid;
+    grid-template-columns: 65% 30%;
+    padding: 0px 40px;
+}
+.logo2{
+    width: 95%;
+    height: 450px;
+}
+.aside{
+    margin-top:60px;
+    height: 350px;
+}
+.titulo{
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+    color: rgb(255, 255, 255);
+}
+.parrafo{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.boton1{
+
+    padding: 15px 50px;
+    border: 1px solid rgb(158, 142, 142);
+    border-radius: 25px;
+    background: rgb(255, 255, 255);
+    color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 1px 1px 10px hsl(257, 40%, 29%);
+}
+.boton1:hover{
+    background: rgb(238, 139, 225);
+    color: rgb(255, 255, 255);
+    transition: .3s; 
+}
+/*---------------------------------iconos-----------------------------------*/
+.pie{
+    margin-top: 22px;
+    float: right;
+    margin-right: 40px;
+    margin-bottom: -1000px;
+}
+.icono{
+    border: 2px solid #fff;
+    border-radius: 30px;
+    margin-right: 5px;
+    font-size: 18px;
+    background: hsl(257, 40%, 49%) ;
+    padding: 5px 10px ;
+    color: #fff;
+}
+.icono:hover{
+    border:2px solid rgb(238, 139, 225);
+    color:rgb(238, 139, 225);
+    transition: .3s;
+}
+
+/*---------------------Media Query 830px--------------------------*/
+
+@media (max-width: 830px){
+
+    body{
+        background: hsl(257, 40%, 49%);;
+        background-image:url(/imagenes/bg-mobile.svg);
+        background-repeat: no-repeat;
+    }
+    .logo1{
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: -25px;
+    }
+    .cuerpo{
+        display:block;
+        grid-template-columns: 100% 
+        padding: 0px 40px;
+    }
+    .logo2{
+        width: 100%;
+        height: 400px;
+    }
+    .aside{
+        margin-top: 50px;
+        height: 400px;
+        text-align: center;
+    }
+    .titulo{
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        display: inline;
+        color: rgb(255, 255, 255);
+    }
+    .parrafo{
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(255, 255, 255);
+    }
+    .boton1{
+        
+        padding: 15px 50px;
+        border: 1px solid rgb(158, 142, 142);
+        border-radius: 25px;
+        background: rgb(255, 255, 255);
+        color: hsl(257, 40%, 49%);
+        font-family: 'Open Sans', sans-serif;
+        box-shadow: 1px 1px 10px hsl(257, 40%, 29%);
+    }
+    .pie{
+       
+       margin-right: 42%;
+       margin-top: -150px;
+       margin-bottom: -1000px;
+    }
+    .icono{
+        border: 2px solid #fff;
+        border-radius: 80px;
+        margin-right: 5px;
+        font-size: 15px;
+        background: hsl(257, 40%, 49%) ;
+        padding: 5px 8px ;
+        color: #fff;
+        text-align: center;
+    }
+}
+/*----------------------Media Query 402px - 829px------------------*/
+
+@media (min-width:402px) and (max-width: 829px){
+
+    body{
+        background: hsl(257, 40%, 49%);;
+        background-image:url(/imagenes/bg-mobile.svg);
+        background-repeat: no-repeat;
+    }
+    .logo1{
+        width: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: -25px;
+    }
+    .cuerpo{
+        display:block;
+        grid-template-columns: 100% 
+        padding: 0px 40px;
+    }
+    .logo2{
+        width: 100%;
+        height: 400px;
+    }
+    .aside{
+        margin-top: 50px;
+        height: 400px;
+        text-align: center;
+    }
+    .titulo{
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        display: inline;
+        color: rgb(255, 255, 255);
+    }
+    .parrafo{
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(255, 255, 255);
+    }
+    .boton1{
+        
+        padding: 15px 50px;
+        border: 1px solid rgb(158, 142, 142);
+        border-radius: 25px;
+        background: rgb(255, 255, 255);
+        color: hsl(257, 40%, 49%);
+        font-family: 'Open Sans', sans-serif;
+        box-shadow: 1px 1px 10px hsl(257, 40%, 29%);
+    }
+    .pie{
+       
+       margin-right: 35%;
+       margin-top: -70px;
+       margin-bottom: -1000px;
+    }
+    .icono{
+        border: 2px solid #fff;
+        border-radius: 80px;
+        margin-right: 5px;
+        font-size: 15px;
+        background: hsl(257, 40%, 49%) ;
+        padding: 5px 8px ;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+/*---------------------Media Query 400px--------------------------*/
+@media (max-width: 400px){
+
+    body{
+        background: hsl(257, 40%, 49%);;
+        background-image:url(/imagenes/bg-mobile.svg);
+        background-repeat: no-repeat;
+    }
+    .logo1{
+        width: 50%;
+        margin-bottom: 15px;
+        margin-left: -25px;
+    }
+    .cuerpo{
+        display:block;
+        grid-template-columns: 100% 
+        padding: 0px 40px;
+    }
+    .logo2{
+        width: 100%;
+        height: 200px;
+    }
+    .aside{
+        margin-top: 50px;
+        height: 350px;
+        text-align: center;
+    }
+    .titulo{
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        display: inline;
+        color: rgb(255, 255, 255);
+    }
+    .parrafo{
+        font-size: 17px;
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(255, 255, 255);
+    }
+    .boton1{
+        
+        padding: 7px 55px;
+        border: 1px solid rgb(158, 142, 142);
+        border-radius: 25px;
+        background: rgb(255, 255, 255);
+        color: hsl(257, 40%, 49%);
+        font-family: 'Open Sans', sans-serif;
+        box-shadow: 1px 1px 10px hsl(257, 40%, 29%);
+    }
+    .pie{
+       margin-right: 35%;
+       margin-top: -60px;
+       margin-bottom: -1000px;
+    }
+    .icono{
+        border: 2px solid #fff;
+        border-radius: 80px;
+        margin-right: 5px;
+        font-size: 10px;
+        background: hsl(257, 40%, 49%) ;
+        padding: 5px 8px ;
+        color: #fff;
+    }
+}
+
+
